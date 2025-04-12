@@ -1,4 +1,5 @@
 const Product = require('../models/Product');
+const fs = require('fs');
 
 exports.getMenu = async (req, res) => {
   try {
@@ -18,6 +19,18 @@ exports.addProduct = async (req, res) => {
     try {
       const product = new Product({ name, desc, price });
       await product.save();
+  
+      const logText = `
+  [${new Date().toISOString()}] POST /api/menu
+  Produkt tillagd:
+  - Namn: ${product.name}
+  - Pris: ${product.price} kr
+  - Beskrivning: ${product.desc || 'Ingen'}
+  ---------------------------------------------
+  `;
+      fs.appendFileSync('api-logg.txt', logText, 'utf8');
+  
+      // 📤 Skicka svar till klient
       res.status(201).json({ message: 'Produkt tillagd', product });
     } catch (err) {
       res.status(500).json({ error: 'Kunde inte lägga till produkten' });
