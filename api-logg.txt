@@ -55,3 +55,10 @@
   - Beskrivning: Bryggd på månadens bönor
   ---------------------------------------------
   
+  [2025-04-14T11:17:50.429Z] POST /api/menu
+  Produkt tillagd:
+  - Namn: Cortado
+  - Pris: 39 kr
+  - Beskrivning: Bryggd på månadens bönor
+  ---------------------------------------------
+  
