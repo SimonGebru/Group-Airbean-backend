@@ -2,6 +2,8 @@ const express = require('express');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const menuRoutes = require('./routes/menuRoutes');
+const authRoutes = require('./routes/authRoutes');
+const orderRoutes = require('./routes/orderRoutes'); // 🆕
 
 dotenv.config();
 
@@ -18,7 +20,10 @@ mongoose.connect(process.env.MONGO_URI)
 
 // Routes
 app.use('/api/menu', menuRoutes);
+app.use('/api/auth', authRoutes);
+app.use('/api/orders', orderRoutes); // 🧩 Här kopplas order ihop
 
+// Starta servern
 app.listen(PORT, () => {
   console.log(`🚀 Servern körs på http://localhost:${PORT}`);
 });
