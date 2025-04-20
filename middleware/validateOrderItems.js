@@ -24,7 +24,7 @@ module.exports = async (req, res, next) => {
       });
     }
 
-    next(); // Allt OK
+    next(); 
   } catch (err) {
     res.status(500).json({ error: 'Kunde inte validera ordern.' });
   }
