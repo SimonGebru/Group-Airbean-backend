@@ -1,0 +1,106 @@
+
+  [2025-04-12T16:54:27.676Z] POST /api/menu
+  Produkt tillagd:
+  - Namn: Bryggkaffe
+  - Pris: 49 kr
+  - Beskrivning: Bryggd på månadens bönor
+  ---------------------------------------------
+  
+  [2025-04-12T16:54:40.967Z] POST /api/menu
+  Produkt tillagd:
+  - Namn: CaffÃª Doppio
+  - Pris: 49 kr
+  - Beskrivning: Bryggd på månadens bönor
+  ---------------------------------------------
+  
+  [2025-04-12T16:55:39.867Z] POST /api/menu
+  Produkt tillagd:
+  - Namn: BryggKaffe
+  - Pris: 49 kr
+  - Beskrivning: Bryggd på månadens bönor
+  ---------------------------------------------
+  
+  [2025-04-12T16:55:52.967Z] POST /api/menu
+  Produkt tillagd:
+  - Namn: Caffe Doppio
+  - Pris: 49 kr
+  - Beskrivning: Bryggd på månadens bönor
+  ---------------------------------------------
+  
+  [2025-04-12T16:56:13.443Z] POST /api/menu
+  Produkt tillagd:
+  - Namn: Cappuccino
+  - Pris: 49 kr
+  - Beskrivning: Bryggd på månadens bönor
+  ---------------------------------------------
+  
+  [2025-04-12T16:56:30.908Z] POST /api/menu
+  Produkt tillagd:
+  - Namn: Latte Macchiato
+  - Pris: 49 kr
+  - Beskrivning: Bryggd på månadens bönor
+  ---------------------------------------------
+  
+  [2025-04-12T16:56:44.801Z] POST /api/menu
+  Produkt tillagd:
+  - Namn: Kaffe Latte
+  - Pris: 49 kr
+  - Beskrivning: Bryggd på månadens bönor
+  ---------------------------------------------
+  
+  [2025-04-12T16:56:58.931Z] POST /api/menu
+  Produkt tillagd:
+  - Namn: Cortado
+  - Pris: 39 kr
+  - Beskrivning: Bryggd på månadens bönor
+  ---------------------------------------------
+  
+  [2025-04-14T11:17:50.429Z] POST /api/menu
+  Produkt tillagd:
+  - Namn: Cortado
+  - Pris: 39 kr
+  - Beskrivning: Bryggd på månadens bönor
+  ---------------------------------------------
+  
+  [2025-04-17T21:10:19.445Z] POST /api/menu
+  Produkt tillagd:
+  - Namn: Bryggkaffe
+  - Pris: 49 kr
+  - Beskrivning: Bryggd på månadens bönor
+  ---------------------------------------------
+  
+  [2025-04-17T21:11:02.097Z] POST /api/menu
+  Produkt tillagd:
+  - Namn: Caffe Doppio
+  - Pris: 49 kr
+  - Beskrivning: Bryggd på månadens bönor
+  ---------------------------------------------
+  
+  [2025-04-17T21:11:17.747Z] POST /api/menu
+  Produkt tillagd:
+  - Namn: Cappuccino
+  - Pris: 49 kr
+  - Beskrivning: Bryggd på månadens bönor
+  ---------------------------------------------
+  
+  [2025-04-17T21:11:41.162Z] POST /api/menu
+  Produkt tillagd:
+  - Namn: Latte Macchiato
+  - Pris: 49 kr
+  - Beskrivning: Bryggd på månadens bönor
+  ---------------------------------------------
+  
+  [2025-04-17T21:11:53.831Z] POST /api/menu
+  Produkt tillagd:
+  - Namn: Kaffe Latte
+  - Pris: 49 kr
+  - Beskrivning: Bryggd på månadens bönor
+  ---------------------------------------------
+  
+  [2025-04-17T21:12:05.622Z] POST /api/menu
+  Produkt tillagd:
+  - Namn: Cortado
+  - Pris: 39 kr
+  - Beskrivning: Bryggd på månadens bönor
+  ---------------------------------------------
+  
